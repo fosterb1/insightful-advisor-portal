@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import Layout from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
@@ -54,9 +53,9 @@ const Services = () => {
       <section className="bg-consulting-blue text-white py-20">
         <div className="container-custom">
           <div className="max-w-3xl animate-fade-in">
-            <h1 className="font-bold mb-4">Our Services</h1>
+            <h1 className="font-bold mb-4">Cerebrox Services</h1>
             <p className="text-xl text-gray-100">
-              Comprehensive consulting solutions designed to help your business overcome challenges and achieve sustainable growth.
+              Comprehensive consulting solutions by Cerebrox designed to help your business overcome challenges and achieve sustainable growth.
             </p>
           </div>
         </div>
@@ -231,9 +230,9 @@ const Services = () => {
       {/* CTA Section */}
       <section className="bg-consulting-dark-blue text-white py-16">
         <div className="container-custom text-center animate-fade-in">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Let's Solve Your Business Challenges</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Let's Solve Your Business Challenges with Cerebrox</h2>
           <p className="text-xl text-gray-100 mb-8 max-w-3xl mx-auto">
-            Contact us today to discuss how our consulting services can help your business thrive.
+            Contact Cerebrox today to discuss how our consulting services can help your business thrive.
           </p>
           <Button asChild size="lg" className="bg-white text-consulting-blue hover:bg-gray-100">
             <Link to="/contact">Schedule a Consultation</Link>

@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -10,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Information */}
           <div>
-            <h3 className="text-xl font-semibold mb-4">ConsultPro</h3>
+            <h3 className="text-xl font-semibold mb-4">Cerebrox</h3>
             <p className="text-gray-300 mb-4">
               Your trusted partner in IT and Finance solutions. We help businesses transform and grow.
             </p>
@@ -91,9 +90,8 @@ const Footer = () => {
           </div>
         </div>
         
-        {/* Copyright */}
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; {currentYear} ConsultPro. All rights reserved.</p>
+          <p>&copy; {currentYear} Cerebrox. All rights reserved.</p>
         </div>
       </div>
     </footer>

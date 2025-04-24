@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -26,7 +25,7 @@ const Navbar = () => {
       <div className="container-custom py-4">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center space-x-2">
-            <span className="text-xl font-bold text-consulting-blue">ConsultPro</span>
+            <span className="text-xl font-bold text-consulting-blue">Cerebrox</span>
           </Link>
 
           {/* Desktop Navigation */}
