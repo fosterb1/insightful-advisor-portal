@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -13,6 +14,7 @@ const Navbar = () => {
     { name: "Services", path: "/services" },
     { name: "IT Services", path: "/services/it" },
     { name: "Finance Services", path: "/services/finance" },
+    { name: "KPI System", path: "/kpi" },
     { name: "Contact", path: "/contact" },
   ];
 

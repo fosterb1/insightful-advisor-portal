@@ -11,6 +11,8 @@ import ITServices from "./pages/ITServices";
 import FinanceServices from "./pages/FinanceServices";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import KPI from "./pages/KPI";
+import KPIEmployeeDetail from "./pages/KPIEmployeeDetail";
 
 const queryClient = new QueryClient();
 
@@ -27,6 +29,8 @@ const App = () => (
           <Route path="/services/it" element={<ITServices />} />
           <Route path="/services/finance" element={<FinanceServices />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/kpi" element={<KPI />} />
+          <Route path="/kpi/employee/:id" element={<KPIEmployeeDetail />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
