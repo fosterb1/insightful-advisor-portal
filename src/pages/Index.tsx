@@ -3,25 +3,25 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Layout from "@/components/layout/Layout";
-import { database, banknote, server } from "lucide-react";
+import { Database, Banknote, Server } from "lucide-react";
 
 const Index = () => {
   // Services data
   const services = [
     {
-      icon: server,
+      icon: Server,
       title: "IT Consulting",
       description: "Expert IT solutions to optimize your technology infrastructure and digital transformation",
       link: "/services/it"
     },
     {
-      icon: banknote,
+      icon: Banknote,
       title: "Financial Services",
       description: "Strategic financial planning and accounting services to maximize your business potential",
       link: "/services/finance"
     },
     {
-      icon: database,
+      icon: Database,
       title: "Data Analysis",
       description: "Transform your raw data into actionable insights to drive better business decisions",
       link: "/services/it"

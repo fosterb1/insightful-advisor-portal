@@ -3,24 +3,24 @@ import { Link } from "react-router-dom";
 import Layout from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { database, server, banknote, calculator, coins, briefcase } from "lucide-react";
+import { Database, Server, Banknote, Calculator, Coins, Briefcase } from "lucide-react";
 
 const Services = () => {
   const itServices = [
     {
-      icon: server,
+      icon: Server,
       title: "IT Infrastructure",
       description: "Optimize your IT infrastructure for performance, security, and scalability.",
       link: "/services/it"
     },
     {
-      icon: database,
+      icon: Database,
       title: "Data Management",
       description: "Implement effective data management strategies and solutions.",
       link: "/services/it"
     },
     {
-      icon: server,
+      icon: Server,
       title: "Cloud Solutions",
       description: "Migrate to the cloud and leverage its benefits for your business.",
       link: "/services/it"
@@ -29,19 +29,19 @@ const Services = () => {
 
   const financeServices = [
     {
-      icon: calculator,
+      icon: Calculator,
       title: "Financial Planning",
       description: "Strategic financial planning to help you achieve your business goals.",
       link: "/services/finance"
     },
     {
-      icon: coins,
+      icon: Coins,
       title: "Accounting Services",
       description: "Comprehensive accounting solutions for businesses of all sizes.",
       link: "/services/finance"
     },
     {
-      icon: briefcase,
+      icon: Briefcase,
       title: "Investment Strategy",
       description: "Expert advice on investments to maximize returns and minimize risks.",
       link: "/services/finance"

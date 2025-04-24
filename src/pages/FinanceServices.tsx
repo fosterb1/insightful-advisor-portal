@@ -1,14 +1,13 @@
-
 import Layout from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
-import { calculator, coins, banknote, briefcase } from "lucide-react";
+import { Calculator, Coins, Banknote, Briefcase } from "lucide-react";
 
 const FinanceServices = () => {
   const services = [
     {
-      icon: calculator,
+      icon: Calculator,
       title: "Financial Planning & Analysis",
       description: "Strategic financial planning and analysis to optimize your business performance and achieve long-term goals.",
       features: [
@@ -20,7 +19,7 @@ const FinanceServices = () => {
       ]
     },
     {
-      icon: banknote,
+      icon: Banknote,
       title: "Accounting Services",
       description: "Comprehensive accounting solutions to ensure accurate financial reporting and compliance.",
       features: [
@@ -32,7 +31,7 @@ const FinanceServices = () => {
       ]
     },
     {
-      icon: briefcase,
+      icon: Briefcase,
       title: "Business Advisory",
       description: "Expert guidance to help your business navigate financial challenges and capitalize on opportunities.",
       features: [
@@ -44,7 +43,7 @@ const FinanceServices = () => {
       ]
     },
     {
-      icon: coins,
+      icon: Coins,
       title: "Investment Strategy",
       description: "Develop and implement investment strategies aligned with your business objectives and risk tolerance.",
       features: [
@@ -56,7 +55,7 @@ const FinanceServices = () => {
       ]
     },
     {
-      icon: calculator,
+      icon: Calculator,
       title: "Financial Reporting & Analysis",
       description: "Accurate and insightful financial reporting to support informed decision-making.",
       features: [
@@ -68,7 +67,7 @@ const FinanceServices = () => {
       ]
     },
     {
-      icon: briefcase,
+      icon: Briefcase,
       title: "Mergers & Acquisitions",
       description: "Expert financial guidance throughout the M&A process to maximize value and minimize risks.",
       features: [
@@ -249,7 +248,7 @@ const FinanceServices = () => {
             <div className="bg-white p-6 rounded-lg shadow-md animate-fade-in" style={{animationDelay: "0.1s"}}>
               <div className="bg-consulting-blue/10 p-4 rounded-full w-16 h-16 flex items-center justify-center mb-4">
                 <svg className="h-8 w-8 text-consulting-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 001 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
                 </svg>
               </div>
               <h3 className="text-xl font-semibold mb-3">Tailored Approach</h3>

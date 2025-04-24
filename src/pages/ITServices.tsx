@@ -1,14 +1,13 @@
-
 import Layout from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
-import { server, database, computer } from "lucide-react";
+import { Server, Database, Computer } from "lucide-react";
 
 const ITServices = () => {
   const services = [
     {
-      icon: server,
+      icon: Server,
       title: "IT Infrastructure Optimization",
       description: "We help businesses design, implement, and manage efficient IT infrastructure that aligns with their goals and supports growth.",
       features: [
@@ -20,7 +19,7 @@ const ITServices = () => {
       ]
     },
     {
-      icon: computer,
+      icon: Computer,
       title: "Digital Transformation",
       description: "Guide your business through digital transformation to improve operations, customer experience, and competitive advantage.",
       features: [
@@ -32,7 +31,7 @@ const ITServices = () => {
       ]
     },
     {
-      icon: database,
+      icon: Database,
       title: "Data Management & Analytics",
       description: "Implement effective data management strategies and leverage analytics to gain valuable insights for better decision-making.",
       features: [
@@ -44,7 +43,7 @@ const ITServices = () => {
       ]
     },
     {
-      icon: server,
+      icon: Server,
       title: "Cloud Services",
       description: "Expert guidance on cloud adoption, migration, and optimization to leverage the benefits of cloud computing.",
       features: [
@@ -56,7 +55,7 @@ const ITServices = () => {
       ]
     },
     {
-      icon: computer,
+      icon: Computer,
       title: "Software Development",
       description: "Custom software solutions designed to address your unique business challenges and requirements.",
       features: [
@@ -68,7 +67,7 @@ const ITServices = () => {
       ]
     },
     {
-      icon: server,
+      icon: Server,
       title: "IT Security & Compliance",
       description: "Protect your business with comprehensive IT security solutions and ensure compliance with relevant regulations.",
       features: [
